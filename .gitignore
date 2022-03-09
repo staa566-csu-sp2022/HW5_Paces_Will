@@ -37,3 +37,8 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+.Rproj.user
+
+# Supporting data files
+QuantifyCellMorphology__cellfeatures.sqlite
+QuantifyCellMorphology__cellfeatures.zip

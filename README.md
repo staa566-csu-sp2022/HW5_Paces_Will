@@ -1,1 +1,6 @@
 # HW5_Paces_Will
+Shiny project
+
+I work as a Data Scientist for an digital pathology company, and one of my responsibilities is reviewing data produced by an image-analysis algorithm. I had been doing this with a series of manual steps to generate and assess feature distributions, but after the introduction this class provided to Shiny, I tried putting those data reading and plotting functions into this app! It's now much easier for me to assess, plot, and save figures.
+
+Using this tool, one should follow steps from left to right - first clicking the "Select folder to examine" to select a directory in which data is saved and choosing the file to examine, then clicking the "List Selected Table Headers" button to determine which features exist in the dataset. Users may select as many features as they'd like to see, however this dramatically increases memory consumption and loading times. Finally, users may specify what type of plot they'd like and enter some identifying information in the "Filename for Plot Export" field before clicking the "Generate Plot" button. Once a status message is printed to the "Status:" field, users can navigate to a second tab to view the generated plot, and click the "Export Plot" button to save the figure as a .tiff file.
